@@ -1,0 +1,22 @@
+/*Primary*/
+/*Neutral*/
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/pattern-background-desktop.svg");
+  height: 100%;
+}
+
+.h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+.card-text {
+  color: hsl(224, 23%, 55%);
+}/*# sourceMappingURL=style.css.map */

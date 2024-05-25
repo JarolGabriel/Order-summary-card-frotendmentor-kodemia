@@ -1,0 +1,30 @@
+$font-family: "Red Hat Display", sans-serif;
+/*Primary*/
+
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+
+/*Neutral*/
+$Very-pale-blue: hsl(225, 100%, 98%);
+$Desaturated-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/pattern-background-desktop.svg");
+  height: 100%;
+}
+
+.h2 {
+  color: $Dark-blue;
+}
+.card-text {
+  color: $Desaturated-blue;
+}
